@@ -1,6 +1,6 @@
 
 const express = require('express');
-const personBillRouter = require('./user_schema.router');
+const user_schema_router = require('../models/user_schema');
 function routerApi(app) {
   const router = express.Router();
   /*Endpoint estático http://localhost:5000/api/v1 */
