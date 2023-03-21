@@ -15,4 +15,4 @@ mongoose
 //respuesta a solicitudes http formato json
 app.use(express.json());
 //permitir hacer el llamado de los request
-routerApi(app);
+routerApi(app); 
